@@ -1,2 +1,39 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# include <studio.h>
+//********************************************************
+// Lab_1CalebHess
+// Author: Caleb Hess
+// Date: 9/1/24
+// Class: COP 3223, Professor Parra
+// Purpose: The purpose of this program is to
+// ask the user for their age, height, and grade
+// and display the value back to the user.
+// Input: User age, height, and grade
+//
+// Output: Your age is: , Your height is: , Your grade is: .
+// //********************************************************
+
+// main function -
+int main() {
+    int age;
+    float height;
+    char grade;
+
+    // Asking for user inputs
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your height in inches (e.g., 74): ");
+    scanf("%f", &height);
+
+    printf("Enter your grade (e.g., first year): ");
+    scanf(" %c", &grade); 
+
+    // Displaying the inputs
+    printf("\nYou entered:\n");
+    printf("Age: %d", age);
+    printf("Height: %f inches", height);
+    printf("Grade: %c", grade);
+
+    return;
+}
+main()
