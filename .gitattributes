@@ -31,7 +31,7 @@ int main() {
     // Displaying the inputs
     printf("\nYou entered:\n");
     printf("Age: %d\n", age);
-    printf("Height: %2f inches\n", height);
+    printf("Height: %.2f inches\n", height);
     printf("Grade: %c\n", grade);
 
     return  0;
