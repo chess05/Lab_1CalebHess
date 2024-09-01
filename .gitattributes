@@ -1,4 +1,4 @@
-# include <studio.h>
+# include <stdio.h>
 //********************************************************
 // Lab_1CalebHess
 // Author: Caleb Hess
@@ -30,10 +30,10 @@ int main() {
 
     // Displaying the inputs
     printf("\nYou entered:\n");
-    printf("Age: %d", age);
-    printf("Height: %f inches", height);
-    printf("Grade: %c", grade);
+    printf("Age: %d\n", age);
+    printf("Height: %2f inches\n", height);
+    printf("Grade: %c\n", grade);
 
-    return;
+    return  0;
 }
-main()
+int main();
